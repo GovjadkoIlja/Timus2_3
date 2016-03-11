@@ -12,7 +12,7 @@ namespace Timus2_3
         {
             int n, sum;
             n=Convert.ToInt32(Console.ReadLine());
-            if (n < 0)
+            if (n < 1)
                 sum = -n * (n - 1) / 2+1;
             else
                 sum= n * (n + 1) / 2;
